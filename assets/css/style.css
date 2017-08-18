@@ -1,0 +1,211 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  z-index: -1;
+}
+
+/* sidebar */
+
+.sidebar-wrapper {
+	position: fixed;
+  z-index: 10;
+  opacity: 0.85;
+	width: 25%;
+	height: 100%;
+	background-color: #EBF5EE;
+}
+
+.sidebar-item {
+	font-weight: 500;
+	font-size: 18px;
+	color: #5B6982;
+  font-family: 'Josefin Sans', sans-serif;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+  text-decoration: none;
+}
+
+.sidebar-item:hover {
+  color: #FFA987;
+  cursor: pointer;
+}
+
+#sidebar-button {
+	position: fixed;
+	z-index: 100;
+	left: 15px;
+	top: 15px;
+	cursor: pointer;
+}
+
+.sidebar-icon {
+  display: inline;
+  width: 30px;
+}
+
+.sidebar-wrapper ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+#about-nav {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#emily-pic {
+  position: absolute;
+  width: 120px;
+  left: 30%;
+  top: 6%;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+	color: #5B6982;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#my-name {
+  position: absolute;
+  top: 28%;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 26px;
+}
+
+#activities-nav {
+  position: absolute;
+  top: 70%;
+  text-align: center;
+  width: 100%;
+}
+
+#description-nav {
+  position: absolute;
+  bottom: 36%;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #5B6982;
+  width: 80%;
+  left: 10%;
+  text-align: center;
+}
+
+/* grid */
+
+#page-wrapper {
+  width: 75%;
+  height: 100%;
+  position: relative;
+  left: 25%;
+}
+
+.grid-item {
+  position: absolute;
+  width: 33.33%;
+  height: 33.33%;
+}
+
+.grid-description {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  top: 45%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+
+.grid-image {
+  position: absolute;
+  object-fit: cover;
+  opacity: 0.85;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-icon {
+  object-fit: cover;
+  width: 40%;
+  position: absolute;
+  z-index: 5;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.darken {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-color: black;
+  display: none;
+}
+
+#one-one {
+  background-color: #D8E4FF;
+}
+
+#one-two {
+  left: 33.33%;
+}
+
+#one-three {
+  left: 66.67%;
+  background-color: #C6F6EE;
+}
+
+#two-one {
+  top: 33.33%;
+}
+
+#two-two {
+  top: 33.33%;
+  left: 33.33%;
+  background-color: #FCDFBD;
+}
+
+#two-three {
+  top: 33.33%;
+  left: 66.67%;
+}
+
+#three-one {
+  top: 66.67%;
+  background-color: #CDEDFD;
+}
+
+#three-two {
+  top: 66.67%;
+  left: 33.33%;
+}
+
+#three-three {
+  top: 66.67%;
+  left: 66.67%;
+  background-color: #FFDBD9;
+}
