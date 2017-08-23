@@ -84,4 +84,10 @@ $(document).ready(function() {
     $(this).find(".grid-icon").fadeIn();
   });
 
+  $("#emily-pic").hover(function() {
+    $("#emily-pic").attr('src', 'assets/img/rollercoaster.png');
+  }, function() {
+    $("#emily-pic").attr('src', 'assets/img/emily.png');
+  });
+
 })

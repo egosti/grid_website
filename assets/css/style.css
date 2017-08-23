@@ -95,14 +95,14 @@ img {
 
 #activities-nav {
   position: absolute;
-  top: 70%;
+  top: 66%;
   text-align: center;
   width: 100%;
 }
 
 #description-nav {
   position: absolute;
-  bottom: 36%;
+  top: 37%;
   font-family: 'Josefin Sans', sans-serif;
   color: #5B6982;
   width: 80%;
@@ -186,7 +186,7 @@ img {
 #two-two {
   top: 33.33%;
   left: 33.33%;
-  background-color: #FCDFBD;
+  background-color: #CDEDFD;
 }
 
 #two-three {
@@ -196,7 +196,7 @@ img {
 
 #three-one {
   top: 66.67%;
-  background-color: #CDEDFD;
+  background-color: #FCDFBD;
 }
 
 #three-two {
