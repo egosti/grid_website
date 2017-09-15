@@ -1,0 +1,95 @@
+<!-- All code original and made by Emily Gosti. -->
+<html>
+
+  <head>
+    <title>Emily Gosti</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/script/script.js"></script>
+  </head>
+
+  <body>
+    <div id="sidebar">
+      <nav class="sidebar-wrapper">
+        <div id="about-nav">
+          <img src="assets/img/emily-min.png" id="emily-pic">
+          <div id="my-name" class="title">EMILY GOSTI</div>
+        </div>
+        <div id="description-nav">
+          Hi! I'm Emily, a sophomore at UC Berkeley majoring in electrical
+          engineering and computer sciences. I enjoy everything
+          from bustling cities to majestic national parks, EDM to
+          classical music, and photography to web design. I
+          hold a steadfast belief in personal growth, so as long as I live, I want to
+          be a kinder person, a more curious learner, and a stronger
+          impact in technology.
+        </div>
+        <div id="activities-nav">
+          <div id="activities-title" class="title">WHAT I'M UP TO</div>
+          <ul>
+            <a href="https://www.google.com/intl/en/about/" target="_blank">
+              <li class="sidebar-item">Tech Intern at Google</li>
+            </a>
+            <a href="https://csmberkeley.github.io/#/" target="_blank">
+              <li class="sidebar-item">CSM Mentor</li>
+            </a>
+	    <a href="innovativedesign.club" target="_blank">
+              <li class="sidebar-item">Innovative Design Web Team</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div id="page-wrapper">
+      <a href="https://www.linkedin.com/in/egosti/" class="grid-item" id="one-one" target="_blank">
+        <img src="assets/img/linkedin.png" class="grid-icon">
+        <div class="darken"></div>
+        <div class="grid-description" id="one-one-d">LINKEDIN</div>
+      </a>
+      <a href="mailto:emily.gosti@gmail.com" class="grid-item" id="one-two" target="_blank">
+        <img src="assets/img/prague-min.JPG" class="grid-image">
+        <div class="darken"></div>
+        <div class="grid-description" id="one-two-d">EMAIL</div>
+      </a>
+      <a href="https://github.com/egosti" class="grid-item" id="one-three" target="_blank">
+        <img src="assets/img/github.png" class="grid-icon">
+        <div class="darken"></div>
+        <div class="grid-description" id="one-three-d">GITHUB</div>
+      </a>
+      <a href="https://twitter.com/emily_gosti" class="grid-item" id="two-one" target="_blank">
+        <img src="assets/img/salzburgcastle-min.JPG" class="grid-image">
+        <div class="darken"></div>
+        <div class="grid-description" id="two-one-d">TWITTER</div>
+      </a>
+      <a href="https://emilygosti.tumblr.com/" class="grid-item" id="two-two" target="_blank">
+        <img src="assets/img/tumblr.png" class="grid-icon">
+        <div class="darken"></div>
+        <div class="grid-description" id="two-two-d">TUMBLR</div>
+      </a>
+      <a href="https://egosti.github.io/personal_website" class="grid-item" id="two-three" target="_blank">
+        <img src="assets/img/goldengate-min.JPG" class="grid-image">
+        <div class="darken"></div>
+        <div class="grid-description" id="two-three-d">WEB DESIGN</div>
+      </a>
+      <a href="assets/img/resume.pdf" class="grid-item" id="three-one" target="_blank">
+        <img src="assets/img/violin.png" class="grid-icon">
+        <div class="darken"></div>
+        <div class="grid-description" id="three-one-d">RESUME</div>
+      </a>
+      <a href="https://www.instagram.com/e.gosti/" class="grid-item" id="three-two" target="_blank">
+        <img src="assets/img/venice-min.JPG" class="grid-image">
+        <div class="darken"></div>
+        <div class="grid-description" id="three-two-d">INSTAGRAM</div>
+      </a>
+      <a href="http://vsco.co/egosti/images/1" class="grid-item" id="three-three" target="_blank">
+        <img src="assets/img/vsco.png" class="grid-icon">
+        <div class="darken"></div>
+        <div class="grid-description" id="three-three-d">VSCO</div>
+      </a>
+    </div>
+  </body>
+
+</html>
